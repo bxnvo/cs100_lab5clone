@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, bvo024/ci_setup ]
   pull_request:
     branches: [ main ]
 
