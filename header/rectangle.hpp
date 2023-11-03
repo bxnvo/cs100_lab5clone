@@ -16,3 +16,4 @@ class Rectangle {
 };
 
 #endif // RECTANGLE_HPP
+
