@@ -46,3 +46,8 @@ TEST(PerimeterTests, testPerimeterConstructor) {
     Rectangle *pRec = new Rectangle(9,8);
     EXPECT_EQ (pRec->perimeter(),34);
 }
+
+int main () {
+    testing::InitGoogleTest();
+    return RUN_ALL_TESTS();
+}
